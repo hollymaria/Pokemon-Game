@@ -74,7 +74,8 @@ class Pokemon:
 
         # Now for the actual fighting...
 
-        # Continue while pokemon still have health
+        # Continue while pokemon still has health
+
         while (self.bars > 0) and (Pokemon2.bars > 0):
             # Print the health of each pokemon
             print(f"\n{self.name}\t\tHLTH\t{self.health}")
@@ -125,8 +126,8 @@ class Pokemon:
                 self.health += "="
 
             time.sleep(1)
-            print(f"{self.name}\t\tHLTH\t{self.health}")
-            print(f"{Pokemon2.name}\t\tHLTH\t{Pokemon2.health}\n")
+            print(f"{self.name}\t\t\HEALTH\t{self.health}")
+            print(f"{Pokemon2.name}\t\tHEALTH\t{Pokemon2.health}\n")
             time.sleep(.5)
 
             # Check to see if Pokemon fainted
